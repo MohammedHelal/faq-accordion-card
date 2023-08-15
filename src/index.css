@@ -54,6 +54,7 @@ body {
   align-items: center;
 }
 
+/*image container section containing css for the images with positioning and transformations*/
 #image-container {
   width: 45%;
   height: 450px;
@@ -105,6 +106,8 @@ body {
   bottom: 950px;
 }
 
+/*FAQ list section*/
+
 #faq-list {
   width: 55%;
   height: 100%;
@@ -137,6 +140,8 @@ p {
 .qna-container:hover .faq-questions {
   color: var(--color-soft-red);
 }
+
+/*animations for expanding faq answers*/
 
 .initial-state {
   color: var(--color-dark-grayish-blue);
@@ -203,7 +208,43 @@ p {
 .expand {
   color: var(--color-dark-grayish-blue);
   font-weight: 400;
+  -webkit-animation: goDown 0.5s;
+  -moz-animation: goDown 0.5s;
+  -ms-animation: goDown 0.5s;
   animation: goDown 0.5s;
+}
+
+@-webkit-keyframes goDown {
+  0% {
+    -webkit-line-height: 0;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-line-height: 1.5;
+    -webkit-opacity: 1;
+  }
+}
+
+@-moz-keyframes goDown {
+  0% {
+    -moz-line-height: 0;
+    -moz-opacity: 0;
+  }
+  100% {
+    -moz-line-height: 1.5;
+    -moz-opacity: 1;
+  }
+}
+
+@-ms-keyframes goDown {
+  0% {
+    -ms-line-height: 0;
+    -ms-opacity: 0;
+  }
+  100% {
+    -ms-line-height: 1.5;
+    -ms-opacity: 1;
+  }
 }
 
 @keyframes goDown {
@@ -216,6 +257,8 @@ p {
     opacity: 1;
   }
 }
+
+/*arrow svg css and transition rotation*/
 
 .downarrow {
   transition: transform 0.8s;
