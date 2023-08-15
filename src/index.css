@@ -54,7 +54,7 @@ body {
   align-items: center;
 }
 
-#image-flex {
+#image-container {
   width: 45%;
   height: 450px;
   overflow: hidden;
@@ -203,7 +203,7 @@ p {
     overflow: visible;
   }
 
-  #image-flex {
+  #image-container {
     flex-grow: 1;
     width: 320px;
     height: 120px;
