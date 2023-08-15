@@ -8,21 +8,22 @@ function FAQQuestions({ question, answer }) {
     setExpand((expand) => !expand);
   }
 
-  const imgClass = expand ? "rotate" : "";
+  const imgClass = "downarrow " + (expand ? "rotate" : "");
   const questionClasses = "faq-questions " + (expand ? "bold" : "");
+  const answerClasses = expand ? "expand" : "initial-state";
 
   return (
-    <>
-      <p className={questionClasses} onClick={clickHandler}>
-        {question}
+    <div className="qna-container" onClick={clickHandler}>
+      <div className="flex">
+        <p className={questionClasses}>{question}</p>
         <img
           className={imgClass}
           src="./images/icon-arrow-down.svg"
           alt="arrow down"
         />
-        {expand && <span className="expand">{answer}</span>}
-      </p>
-    </>
+      </div>
+      <p className={answerClasses}>{answer}</p>
+    </div>
   );
 }
 

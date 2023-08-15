@@ -4,7 +4,7 @@ import FAQQuestions from "./FAQQuestions";
 function Faq() {
   return (
     <div className="container">
-      <div id="first-flex">
+      <div id="image-flex">
         <img id="woman" alt="woman online illustration" />
         <img id="box" alt="box desktop illustration" />
         <div className="shadow"></div>
