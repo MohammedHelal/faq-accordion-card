@@ -5,8 +5,16 @@ function Faq() {
   return (
     <div className="container">
       <div id="image-container">
-        <img src="" id="woman" alt="woman online illustration" />
-        <img src="" id="box" alt="box desktop illustration" />
+        <img
+          src="../public/images/illustration-woman-online-desktop.svg"
+          id="woman"
+          alt="woman online illustration"
+        />
+        <img
+          src="../public/images/illustration-box-desktop.svg"
+          id="box"
+          alt="box desktop illustration"
+        />
         <div className="shadow"></div>
         <div className="square one"></div>
         <div className="square two"></div>
