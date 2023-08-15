@@ -62,7 +62,7 @@ body {
 }
 
 #box {
-  content: url("./images/illustration-box-desktop.svg");
+  content: url("../public/images/illustration-box-desktop.svg");
   position: absolute;
   top: 155px;
   left: -95px;
@@ -70,7 +70,7 @@ body {
 }
 
 #woman {
-  content: url("./images/illustration-woman-online-desktop.svg");
+  content: url("../public/images/illustration-woman-online-desktop.svg");
   position: relative;
   top: 75px;
   left: -60px;
@@ -301,7 +301,7 @@ p {
     left: 35px;
     width: 250px;
     margin: 0;
-    content: url("./images/illustration-woman-online-mobile.svg");
+    content: url("../public/images/illustration-woman-online-mobile.svg");
   }
 
   #box {
