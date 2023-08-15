@@ -5,14 +5,14 @@ function Faq() {
   return (
     <div className="container">
       <div id="image-container">
-        <img id="woman" alt="woman online illustration" />
-        <img id="box" alt="box desktop illustration" />
+        <img src="" id="woman" alt="woman online illustration" />
+        <img src="" id="box" alt="box desktop illustration" />
         <div className="shadow"></div>
         <div className="square one"></div>
         <div className="square two"></div>
       </div>
       <div id="faq-list">
-        <h2>FAQ</h2>
+        <h1>FAQ</h1>
         {faqArray.map((ele) => (
           <FAQQuestions
             key={ele.id}
