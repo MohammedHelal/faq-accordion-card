@@ -6,12 +6,12 @@ function Faq() {
     <div className="container">
       <div id="image-container">
         <img
-          src="../../images/illustration-woman-online-desktop.svg"
+          src="./images/illustration-woman-online-desktop.svg"
           id="woman"
           alt="woman online illustration"
         />
         <img
-          src="../../images/illustration-box-desktop.svg"
+          src="./images/illustration-box-desktop.svg"
           id="box"
           alt="box desktop illustration"
         />
